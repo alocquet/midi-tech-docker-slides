@@ -12,6 +12,11 @@ https://github.com/alocquet/midi-tech-docker-demo
 ![qrcode](data/presentation/qr-code-demo.jpg)
 
 
+## Credits
+* Docker : http://www.docker.io
+* Slides : http://www.slideshare.net/dotCloud
+
+
 
 ## Somaire
 - Pourquoi ? <!-- .element: class="fragment" -->

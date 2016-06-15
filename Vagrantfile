@@ -11,7 +11,7 @@ Vagrant.configure(2) do |config|
       # update APT repositories before installing anything else
       sudo apt-get update
 
-      # install node.js the usual way (will also install npm this time)
+      # install node & npm
       sudo apt-get install -y nodejs npm
 
       sudo rm /usr/bin/node
@@ -22,8 +22,9 @@ Vagrant.configure(2) do |config|
       mkdir /home/vagrant/node_modules
       cd /home/vagrant/project/slides
       ln -s /home/vagrant/node_modules/ node_modules
+      sudo chown -R vagrant:vagrant /home/vagrant/node_modules
 
-      # grunt
+      # install npm packages
       sudo npm install -g grunt-cli
     SHELL
 end

@@ -1,12 +1,12 @@
 ## Midi Technique
-### Doker
+###![](data/presentation/docker.svg)
 Arnaud Locquet - arnaud.locquet@gfi.fr
 
 
 
 https://github.com/alocquet/midi-tech-docker-slides
 
-![qrcode](data/presentation/qr-code-slides.jpg)
+![](data/presentation/qr-code-slides.jpg)
 
 
 https://github.com/alocquet/midi-tech-docker-demo
@@ -20,7 +20,7 @@ https://github.com/alocquet/midi-tech-docker-demo
 
 
 
-## Somaire
-- Pourquoi ? <!-- .element: class="fragment" -->
-- Comment ? <!-- .element: class="fragment" -->
-- Action ! <!-- .element: class="fragment" -->
+###![](data/presentation/docker.svg)
+## Pourquoi <!-- .element: class="fragment" -->
+## Comment <!-- .element: class="fragment" -->
+## Pratique <!-- .element: class="fragment" -->

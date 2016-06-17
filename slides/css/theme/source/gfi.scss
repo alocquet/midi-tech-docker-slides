@@ -64,8 +64,12 @@ body{
   background-size: 100px;
 }
 
-
 .reveal section img {
 	margin: 15px 0px;
 	background: white;
+}
+
+.reveal strong, .reveal b {
+    font-weight: bold;
+    color: ivory;
 }

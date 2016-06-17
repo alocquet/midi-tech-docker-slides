@@ -13,6 +13,9 @@
 ![pulls](data/pourquoi/pull.png)
 
 
+![pulls](data/pourquoi/why.gif)<!-- .element: style="width:100%" -->
+
+
 ## Evolution technos
 * Avant : client lourd <!-- .element: class="fragment" -->
 * Maintenant : archi plus complexe : <!-- .element: class="fragment" -->
@@ -52,6 +55,10 @@ Note:
 ![solution](data/pourquoi/ship-container.png)
 Note:
 Pour minimiser le cout de transport des marchandises, nous avons créé les conteneurs.
+
+
+## mais encore...
+![solution-code](data/pourquoi/cest-cela.gif)<!-- .element: style="width:100%" -->
 
 
 ## adaptation au code

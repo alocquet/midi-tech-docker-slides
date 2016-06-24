@@ -15,19 +15,80 @@
 ![](data/comment/basics-of-docker-system.png)
 
 
-# Docker File
+## search
+Permet de rechercher une image dans le docker hub
+```sh
+docker search postgres
+```
 
 
-# build
+## pull
+Permet de télécharger une image depuis un repository
+```sh
+docker pull postgres:9.5.3
+```
 
 
-# run
+## images
+Permet de lister les images présentes en local
+```sh
+docker images -a
+```
 
 
-# start
+## run
+Permet de démarrer une image dans un container
+```sh
+docker run postgres:9.5.3
+```
+* <!-- .element: class="fragment" --> **-d** &mdash; mode daemon
+* <!-- .element: class="fragment" --> **-t** &mdash; mode tty
+* <!-- .element: class="fragment" --> **-i** &mdash; mode interactive
+* <!-- .element: class="fragment" --> **-e** &mdash; variable d'environnement
+* <!-- .element: class="fragment" --> **-v** &mdash; volume
+* <!-- .element: class="fragment" --> **--name database** &mdash; nom du container
+* <!-- .element: class="fragment" --> **--link database:database** &mdash; lien vers un autre container
 
 
-# exec
+## ps
+Permet de lister les containers
+```sh
+docker ps -a
 
 
-#...
+## inspect
+Permet de récupérer des informations sur un container
+```sh
+docker inspect database
+```
+
+
+## exec
+Permet d''executer une commande
+```sh
+docker exec -it database /bin/bash
+```
+
+
+## Docker File
+Démo
+
+
+## build
+Permet de construire une image
+```sh
+docker build -t alocquet/midi-tech-first:1.0  .
+```
+Note: On voit les images intermediaires.
+
+
+## build
+Avec la configuration du proxy, ça devrait mieux marcher :''(
+```sh
+echo "http_proxy=http://****:8080" > ... TODO
+docker build -t alocquet/midi-tech-first:1.0 .
+```
+
+
+# stop/start
+Arrête/Démarre un container.

@@ -17,11 +17,13 @@
 
 
 ## Evolution technos
-* Avant : client lourd <!-- .element: class="fragment" -->
+* Avant :
+ * client lourd <!-- .element: class="fragment" -->
+ * architecture "simple" : 1 serveur X applications  <!-- .element: class="fragment" -->
 * Maintenant : archi plus complexe : <!-- .element: class="fragment" -->
- * Comment gérer les dépendances
- * Comment éviter X configs différentes
- * Comment migrer/scaler rapidement une appli.
+ * Comment gérer les dépendances  <!-- .element: class="fragment" -->
+ * Comment éviter X configs différentes <!-- .element: class="fragment" -->
+ * Comment migrer/scaler rapidement une appli <!-- .element: class="fragment" -->
 
 
 ## Pb : Hétérogénéité

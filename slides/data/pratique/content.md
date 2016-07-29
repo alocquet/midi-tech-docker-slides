@@ -77,18 +77,29 @@ Démo
 ## build
 Permet de construire une image
 ```sh
-docker build -t alocquet/midi-tech-first:1.0  .
+docker build --build-arg HTTP_PROXY=http://proxy:80 -t alocquet/midi-tech-first:1.0 .
 ```
 Note: On voit les images intermediaires.
 
 
-## build
-Avec la configuration du proxy, ça devrait mieux marcher :''(
+## stop/start
+Arrête/Démarre un container
+
+
+# Docker trusted registry
+ * Gérer une bibliothèque d'images
+ * Serveur installé pour une entreprise
+ * équivalent du repository maven
+
+#Docker hub
+ * Repository public
+ * https://hub.docker.com/
+
+
+# Upload d'une image
 ```sh
 echo "http_proxy=http://****:8080" > ... TODO
-docker build -t alocquet/midi-tech-first:1.0 .
+docker build -t midi-tech-first:1.0 .
+docker tag midi-tech-first:1.0 alocquet/midi-tech-first:1.0
+docker push alocquet/midi-tech-first:1.0
 ```
-
-
-# stop/start
-Arrête/Démarre un container.

@@ -6,15 +6,16 @@
 * Décrit toute l'architecture d'une application
 * Démarrage de tous les containers en une seule commande
 
+
 ## Fichier Docker Compose
-* depends_on : ordre de démarrage
-* links : container A est visible par container b
-* build : décrit comment construire une image
-* image : nom de l'image
-* environment : variables d'environnement
-* command : commande à lancer dans le container
-* port : forwarder un port
-* volumes : définir des volumes
+* <!-- .element: class="fragment" -->**depends_on** : ordre de démarrage
+* <!-- .element: class="fragment" -->**links** : container A est visible par container b
+* <!-- .element: class="fragment" -->**build** : décrit comment construire une image
+* <!-- .element: class="fragment" -->**image** : nom de l'image
+* <!-- .element: class="fragment" -->**environment** : variables d'environnement
+* <!-- .element: class="fragment" -->**command** : commande à lancer dans le container
+* <!-- .element: class="fragment" -->**port** : forwarder un port
+* <!-- .element: class="fragment" -->**volumes** : définir des volumes
 
 
 ## config

@@ -1,4 +1,0 @@
-# Docker swarm & UCP
-
-
-## Intérêt
